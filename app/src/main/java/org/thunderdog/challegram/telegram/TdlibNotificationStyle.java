@@ -91,7 +91,8 @@ public class TdlibNotificationStyle implements TdlibNotificationStyleDelegate, F
   private final TdlibNotificationManager context;
   private final Tdlib tdlib;
 
-  public TdlibNotificationStyle (TdlibNotificationHelper context, Tdlib tdlib) {
+
+
     this.context = context.context();
     this.tdlib = tdlib;
   }
